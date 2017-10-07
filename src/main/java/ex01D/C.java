@@ -9,6 +9,8 @@ public class C {
 public static void main(String [] args) {
 	int i = 0;
 	StringBuffer s = new StringBuffer("abc");
+
+	// Il y avait un "e" en trop dans le nom de cette méthode (methode1(...))
 	method1(i, s);
 
 	// il manquait une double quote avant le 'i' dans le syso
