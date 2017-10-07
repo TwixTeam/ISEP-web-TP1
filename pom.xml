@@ -1,15 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+
 	<groupId>dblab</groupId>
 	<artifactId>hello</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
+
 	<name>hello</name>
 	<url>http://maven.apache.org</url>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -36,18 +40,65 @@
 				<version>1.2.1</version>
 				<executions>
 					<execution>
+						<id>hello_App</id>
 						<goals>
 							<goal>java</goal>
 						</goals>
+						<configuration>
+							<mainClass>dblab.hello.App</mainClass>
+							<arguments>
+								<argument>foo</argument>
+								<argument>bar</argument>
+							</arguments>
+						</configuration>
 					</execution>
+					
+					<execution>
+						<id>log4jBasics_App</id>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>ex01C.Log4jBasics</mainClass>
+							<arguments>
+								<argument>foo</argument>
+								<argument>bar</argument>
+							</arguments>
+						</configuration>
+					</execution>
+
+					<execution>
+						<id>C_App</id>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>ex01D.C</mainClass>
+						</configuration>
+					</execution>
+
+					<execution>
+						<id>ABC_App</id>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>ex01E.C</mainClass>
+						</configuration>
+					</execution>
+
+					<execution>
+						<id>Circle_App</id>
+						<goals>
+							<goal>java</goal>
+						</goals>
+						<configuration>
+							<mainClass>ex01F.ToStringOverloading</mainClass>
+						</configuration>
+					</execution>
+
 				</executions>
-				<configuration>
-					<mainClass>dblab.hello.App</mainClass>
-					<arguments>
-						<argument>foo</argument>
-						<argument>bar</argument>
-					</arguments>
-				</configuration>
+				
 			</plugin>
 		</plugins>
 	</build>
