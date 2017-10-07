@@ -2,7 +2,8 @@ package ex01D;
 
 public class C {
 	static void method1(int i, StringBuffer s) {
-		i++; s.append("d"); 
+		i++;
+		s.append("d"); 
 	}
 
 public static void main(String [] args) {

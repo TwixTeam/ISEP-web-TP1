@@ -12,3 +12,9 @@ public class App {
 		}
 	}
 }
+
+/*
+Hello World!
+argument [0]: foo
+argument [1]: bar
+*/
