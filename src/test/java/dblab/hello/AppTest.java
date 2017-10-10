@@ -19,6 +19,6 @@ public class AppTest extends TestCase {
 
 	/** * Rigourous Test :-) */
 	public void testApp() {
-		assertTrue(true);
+		App.main(new String[] {"Hello", "World",  "It's", "Me", "Mario"});
 	}
 }
