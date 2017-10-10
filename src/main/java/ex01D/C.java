@@ -8,9 +8,11 @@ public class C {
 
 public static void main(String [] args) {
 	int i = 0;
-	//Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".
-	//StringBuffer, is synchronized to make it thread-safe.
-	//Unfortunately, synchronization has a big negative impact on performance, even when using these collections from a single thread.
+	/**
+	 * Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".
+	 * StringBuffer, is synchronized to make it thread-safe.
+	 * Unfortunately, synchronization has a big negative impact on performance, even when using these collections from a single thread.
+	 */
 	StringBuilder s = new StringBuilder("abc");
 
 		/** 

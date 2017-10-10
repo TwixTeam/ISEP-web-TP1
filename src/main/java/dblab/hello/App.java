@@ -13,10 +13,10 @@ public class App {
 	}
 }
 
-/* 
-sortie console:
-
-Hello World!
-argument [0]: foo
-argument [1]: bar
-*/
+/** 
+ * sortie console:
+ *
+ * Hello World!
+ * argument [0]: foo
+ * argument [1]: bar
+ */
