@@ -1,9 +1,6 @@
 package ex01F;
-
-import org.apache.log4j.Logger;
-
 public class Circle {
-	protected static Logger log = Logger.getLogger(Circle.class);
+	
 	int x;
 	int y;
 	int radius;

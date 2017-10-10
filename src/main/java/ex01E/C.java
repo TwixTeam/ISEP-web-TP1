@@ -1,6 +1,10 @@
 package ex01E;
+import org.apache.log4j.*;
 
 class C extends B {
+
+	protected static Logger log = Logger.getLogger(C.class);
+
 	int x, a;
 
 	void m() {
@@ -28,8 +32,14 @@ class C extends B {
 		 */ 
 
 		a = super.x;
+		log.debug("Value of a after 1st assignment : " + a);
+
 		a = ((B)this).x;
+		log.debug("Value of a after 2nd assignment : " + a);
+
 		a = ((A)this).x;
+		log.debug("Value of a after 3rd assignment : " + a);
+
 		super.m();
 
 
