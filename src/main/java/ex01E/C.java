@@ -32,13 +32,13 @@ class C extends B {
 		 */ 
 
 		a = super.x;
-		log.debug("Value of a after 1st assignment : " + a);
+		log.debug("Value of 'a' after 1st assignment : " + a);
 
 		a = ((B)this).x;
-		log.debug("Value of a after 2nd assignment : " + a);
+		log.debug("Value of 'a' after 2nd assignment : " + a);
 
 		a = ((A)this).x;
-		log.debug("Value of a after 3rd assignment : " + a);
+		log.debug("Value of 'a after 3rd assignment : " + a);
 
 		super.m();
 
