@@ -6,14 +6,19 @@ public class C {
 		s.append("d"); 
 	}
 
-public static void main(String [] args) {
-	int i = 0;
-	StringBuffer s = new StringBuffer("abc");
+	public static void main(String [] args) {
+		int i = 0;
+		StringBuffer s = new StringBuffer("abc");
 
-	// Il y avait un "e" en trop dans le nom de cette méthode (methode1(...))
-	method1(i, s);
+		/** 
+		 *	Il y avait un "e" en trop dans le nom de cette méthode (methode1(...))
+		 */
 
-	// il manquait une double quote avant le 'i' dans le syso
-	System.out.println("i=" + i + ", s=" + s); // i=0, s=abcd
+		method1(i, s);
+
+		/** 
+		 *	il manquait une double quote avant le 'i' dans le syso
+		 */
+		System.out.println("i=" + i + ", s=" + s); // i=0, s=abcd
 	}
 }
