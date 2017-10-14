@@ -20,6 +20,6 @@ public class AppTest extends TestCase {
 	public void testApp() {
 
 		/** On test le passage de paramètres à la méthode main */
-		App.main(new String[] {"Hello", "12",  "It's", "Me", "Mario"});
+		App.main(new String[] {"Hello", "World", "It's", "Me", "Mario"});
 	}
 }
