@@ -18,6 +18,8 @@ public class AppTest extends TestCase {
 
 	/** * Rigourous Test :-) */
 	public void testApp() {
-		App.main(new String[] {"Hello", "World",  "It's", "Me", "Mario"});
+
+		/** On test le passage de paramètres à la méthode main */
+		App.main(new String[] {"Hello", "12,  "It's", "Me", "Mario"});
 	}
 }

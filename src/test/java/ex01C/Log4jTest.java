@@ -21,6 +21,8 @@ public class Log4jTest extends TestCase {
 
 	/** * Rigourous Test :-) */
 	public void testApp() {
+
+		/** On test le l'affichage des logs dans le terminal */
 		log.info("info message TEST");
 		log.debug("debug message TEST");
 	}

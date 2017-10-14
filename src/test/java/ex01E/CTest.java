@@ -18,6 +18,8 @@ public class CTest extends TestCase {
 
 	/** * Rigourous Test :-) */
 	public void testApp() {
+
+		/** On test l'appel de la méthode test() */
 		C c = new C();
 		c.test();
 	}

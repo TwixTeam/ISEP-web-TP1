@@ -20,6 +20,7 @@ public class CircleTest extends TestCase {
 	public void testApp() {
 		Circle c = new Circle(1,2, 5);
 
+		/** On test la bonne création de notre instance de Circle */
 		assertTrue(c.x == 1 && c.y ==2 && c.radius == 5);
 	}
 }
